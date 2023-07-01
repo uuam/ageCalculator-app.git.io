@@ -1,7 +1,7 @@
 # Forntend Mentor Challenge - Age calculator app
 輸入出生年月日，轉換為出生年齡
 
-[生日轉換器](https://uuam.github.io/ageCalculator-app.github.io/)
+[前往：生日轉換器](https://uuam.github.io/ageCalculator-app.github.io/)
 
 ## 特點
 這個專案具有以下一些特點：
