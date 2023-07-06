@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
+    <meta name="description" content="輸入出生年月日，動態轉換為出生年齡">
+    <meta name="keywords" content="年齡計算器, 年齡換算工具, 兒童年齡計算, 學齡前兒童年齡換算, 年齡計算工具, 中文年齡換算工具, 懷孕時間計算器,年齡計算, 年齡統計, 年紀, 生日 " />
+    <meta name="author" content="uuam.C" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Frontend Mentor | 年齡換算器" />
+    <meta property="og:description" content="輸入出生年月日，動態轉換為出生年齡" />
 
     <link
       rel="icon"
@@ -12,7 +18,7 @@
       href="./assets/images/favicon.png"
     />
 
-    <title>Frontend Mentor | Age calculator app</title>
+    <title>Frontend Mentor | 年齡換算器</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
@@ -23,14 +29,17 @@
       .attribution a {
         color: hsl(228, 45%, 44%);
       }
+      h1{
+        display: none;
+      }
     </style>
   <link rel="icon" href="favicon.png"><script defer src="bundle.js"></script></head>
   <body>
     <main>
+      <h1>年齡計算機</h1>
       <form>
         <div id="input-form" class="grid-container">
           <div class="grid-box">
-
             <label>DAY</label><br />
             <input id="dayInput" autocomplete="off" maxlength="2" type="text" placeholder="DD" required/><br />
 
